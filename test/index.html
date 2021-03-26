@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FastWebDev</title>
+</head>
+<body>
+    <h1>FastWebDev</h1>
+    <p>This page is under construction.</p>
+    <hr/>
+
+    <h2>@typography</h2>
+
+    <h1> heading</h1>
+    <h2> sub heading</h2>
+    <p>Normal text written</p>
+
+    <hr/>
+
+    <h2>containers</h2>
+    <h3>fluid container</h3>
+    <div class="container__fluid">This should go full width</div>
+
+    <h3>center container</h3>
+    <div class="container__center">this should be centered. this is sample text 
+        return in this div to check in the html file.
+    </div>
+
+    <hr/>
+
+    <h2>@links</h2>
+
+    <div class="div__text">primary link</div>
+    <a class="link link--primary link--bold link--hover" href="/">primary link</a>
+
+    <div class="div__text">secondary link</div>
+    <a class="link link--secondary link--hover" href="/">secondary link</a>
+
+    <hr/>
+
+    <h2>@lists</h2>
+
+    <div>unordered lists</div>
+    <ul class="list--nonbullet">
+        <li>first</li>
+        <li>second</li>
+    </ul>
+
+    <div>ordered lists</div>
+    <ol class="list--nonbullet ">
+        <li class = "list__item list__item-inline">first</li>
+        <li class = "list__item list__item-inline">second</li>
+    </ol>
+
+    <div>reverse ordered lists</div>
+    <ol reversed>
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <hr/>
+
+    <h2>@nav</h2>
+
+
+    <nav class="navigation">
+        <div>Brand</div>
+        <ul class="list--nonbullet navigation__list--alignright">
+            <li class = "list__item-inline">
+                <a class="link link--hover navigation__link--active" href="/">home</a>
+            </li>
+            <li class = "list__item-inline">
+                <a class="link link--hover" href="/">doc</a>
+            </li>
+            <li class = "list__item-inline">
+                <a class="link link--hover" href="/">code</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <hr/>
+
+    <h2>@header</h2>
+
+    <header class="header__content">
+        <!-- color #14122B-->
+        <!-- light color #ccc9e8-->
+
+        <img class="header__img" src="/img/header.svg" />
+        <h1 class="header__textheader">Header heading with <span class="header--highlight">highlight</span></h1>
+    </header>
+
+    <hr/>
+    <h2>@section</h2>
+
+   <section class="section">
+       <div class="container__center">
+        <h3 class="section__text--alignCenter">this will have normal bg color</h3>
+        <p>this is the text in normal off white bg color with text values.If i keep on writing then
+            what will be the effect is what i want to see but let see what effect will 
+            or will not happen when i write through like this
+        </p> 
+    </div>
+   </section>
+
+   <section class="section section--bgcolor-offwhite ">
+       <div class="container__center">
+        <h3 class="section__text--alignCenter">This will have an off white bg color</h3>
+       <p>this is the text in normal off white bg color with text values.If i keep on writing then
+           what will be the effect is what i want to see but let see what effect will 
+           or will not happen when i write through like this
+       </p>   
+    </div>
+   </section>
+
+    <hr/>
+
+    <h2>@footer</h2>
+    <footer class="footer">
+        <h1 class="">footer header value some text</h1>
+        <ol class="list--nonbullet list--paddingstart0px">
+            <li class="list__item-inline">
+                <a class="list__item--nodecoration footer__link link--hover" href="/">twitter</a>
+            </li>
+            <li class="list__item-inline">
+                <a class="list__item--nodecoration footer__link link--hover" href="/">github</a>
+            </li>
+            <li class="list__item-inline">
+                <a class="list__item--nodecoration footer__link link--hover" href="/">linkedin</a>
+            </li>
+        </ol>
+    </footer>
+
+    <hr/>
+</body>
+</html>
