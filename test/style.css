@@ -8,6 +8,9 @@
     --offwhite-color:#f1f1f1;
 }
 
+.body__fullwidth{
+    margin:0;
+}
 /** contianer **/
 
 .container__fluid{
@@ -95,7 +98,9 @@ hr {
 .navigation__list--alignright{
     text-align: right;
 }
-
+.nav__link{
+    color:var(--primary-color);
+}
 .navigation__link--active{
     text-underline-offset: 0.2em;
     text-decoration: underline;
@@ -105,11 +110,11 @@ hr {
 /** header **/
 
 .header__content{
-    padding:2em;
+    padding:1.5em;
 }
 
 .header__img{
-    max-width: 400px;
+    max-width: 350px;
     margin:0 auto;
     display: block;
 }
@@ -145,14 +150,15 @@ hr {
     margin:0;
     padding-inline-start: 0px;
     padding:1em 1em;
-    
+    border:0;
     text-align: center;
     color:white;
 }
 
 .footer__link{
-    padding:0 2em;
+    padding:0 1em;
     color:white;
+    margin:0;
 }
 
 footer ol{
