@@ -114,7 +114,8 @@ hr {
 }
 
 .header__img{
-    max-width: 350px;
+    width: 100%;
+    min-width: 300px;
     margin:0 auto;
     display: block;
 }
