@@ -4,29 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./lib/style.css">
     <title>FastWebDev</title>
+    
 </head>
 <body>
-    <h1>FastWebDev</h1>
-    <p>This page is under construction.</p>
-    <a href="/test">test</a>
-    <br>
     <nav class="navigation">
-        <div>Brand</div>
-        <ul class="list--nonbullet navigation__list--alignright">
-            <li class = "list__item-inline">
-                <a class="link link--hover nav__link navigation__link--active" href="/">home</a>
-            </li>
-            <li class = "list__item-inline">
-                <a class="link nav__link link--hover" href="/">doc</a>
-            </li>
-            <li class = "list__item-inline">
-                <a class="link nav__link link--hover" href="/">code</a>
-            </li>
-        </ul>
+        <div class="nav__container">
+            <h1 >fastWebDev</h1>
+            <ul class="list--nonbullet  navigation__list--alignright">
+                <li class = "list__item-inline">
+                    <a class="link link--hover nav__link navigation__link--active" href="/">home</a>
+                </li>
+                <li class = "list__item-inline">
+                    <a class="link nav__link link--hover" href="/">doc</a>
+                </li>
+                <li class = "list__item-inline">
+                    <a class="link nav__link link--hover" href="/">code</a>
+                </li>
+            
+            </ul>
+        </div>
     </nav>
+    <br/>
+    <div class="container">
+        <div id="component_sideBar--toggle" class="component__sideBar--toggle component__sideBar--hidden">
+            <a href="#" class="btn show__list">Show List</a>
+        </div>
+        <div class="row">
+            
+            <div id="component__sideBar" class="component__sideBar">
+                <div id="btn__hide" class="btn hide"><a href="#">hideButton</a></div>
+                <div class="component__list">
+                    <ol>
+                        <li><a href="/">Introduction</a></li>
+                        <li><a href="component/Alert.html">alert</a></li>
+                        <li><a href="/">Avatar</a></li>
+                        <li><a href="/">Batch</a></li>
+                        <li><a href="/">Button</a></li>
+                        <li><a href="/">Card</a></li>
+                        <li><a href="/">Image</a></li>
+                        <li><a href="/">Input</a></li>
+                        <li><a href="/">List</a></li>
+                        <li><a href="/">Modal</a></li>
+                        <li><a href="/">Navigation</a></li>
+                        <li><a href="/">Search Bar</a></li>
+                        <li><a href="/">Slider</a></li>
+                        <li><a href="/">Text Utils</a></li>
+                        <li><a href="/">Toasts</a></li>
+                    </ol>
+                </div>
+            </div>
+            <div class="component__info">
+                <h1>Introduction</h1>
+                This is a random content info that i am adding which will show for each part of the content let see what each 
+                has for us which we don't have.
+            </div>
+        </div>
+    </div>
 
+    <script src="./lib/script.js"></script>
     
 </body>
 </html>
